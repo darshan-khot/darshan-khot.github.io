@@ -1,0 +1,52 @@
+html, body {
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+#main-body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+	display: inline-block;
+	padding: 10px;
+
+	#header {
+		font-size: 30px;
+		font-weight: bold;
+
+		#position {
+			font-style: italic;
+			font-size: 16px;
+		}
+	}
+
+	#sub-header {
+		font-style: italic;
+	}
+
+	#content {
+		.content-subhead {
+			ul {
+				li {
+					.item-head {
+						font-style: italic;
+					}
+				}
+			}
+		}
+	}
+}
+
+#side-body {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 18%;
+	height: 100%;
+	border-left: solid 1px;
+	background-color: #facebc;
+	display: inline-block;
+	padding: 10px;
+}
