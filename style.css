@@ -1,5 +1,17 @@
+@font-face {
+	font-family: chalk;
+	src: url('./chalk-font.otf');
+}
+
 body {
-	background: url('./bg.jpg');
+	/*background: url('./img/bg.jpg');*/
+	background-color: #202020;
+	color: #ffffff;
+	font-family: 'chalk';
+}
+
+.content {
+	font-size: 24px;
 }
 
 .mid-logo {
@@ -8,7 +20,9 @@ body {
 }
 
 .navbar {
-	background-color: rgba(0, 0, 0, 0.6) !important;
+	/*background-color: rgba(0, 0, 0, 0.6) !important;*/
+	background-color:  #000000 !important;
+	font-size: 30px;
 }
 
 @media only screen and (min-width: 992px) {
