@@ -123,8 +123,9 @@ html, body {
 
   #side-body {
     z-index: 2;
+    display: none;
     width: auto;
-    right: -992px;
+    left: 0;
   }
 }
 
