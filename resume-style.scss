@@ -139,6 +139,21 @@ html, body {
 	}
 }
 
+#about-button {
+	position: absolute;
+	transform: rotate(270deg);
+	top: 50px;
+	right: -32px;
+	z-index: 3;
+	cursor: pointer;
+	background-color: #ffffff;
+	padding: 10px 30px;
+	border: solid 1px;
+	border-bottom: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
 @media only screen and (max-width: 992px) {
 	#main-body {
 		width: auto;
@@ -148,6 +163,7 @@ html, body {
 		z-index: 2;
 		// display: none;
 		width: auto;
-		left: 0;
+		// left: 0;
+		right: -992px;
 	}
 }
