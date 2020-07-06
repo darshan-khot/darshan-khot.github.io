@@ -1,3 +1,5 @@
+$theme-color: purple;
+
 html, body {
 	background-color: #ffffff;
 	overflow: hidden;
@@ -7,27 +9,48 @@ html, body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 75%;
+	width: 80%;
 	height: 100%;
 	display: inline-block;
-	padding: 50px 50px 50px 50px;
-	overflow: scroll;
+	// padding: 20px;
+	// margin-top: 30px;
+	overflow-y: scroll;
+	font-size: 1.3em;
+
 
 	#header {
+		padding: 20px 20px 0 20px;
 		font-size: 30px;
 		font-weight: bold;
+		color: $theme-color;
 
 		#position {
 			font-style: italic;
 			font-size: 16px;
+			font-weight: 400;
 		}
 	}
 
 	#sub-header {
+		padding: 0 20px 20px 20px;
 		font-style: italic;
+		font-size: 0.9em;
+	}
+
+	hr {
+		margin-left: 20px;
 	}
 
 	#content {
+		padding: 20px;
+
+		.content-head {
+			color: $theme-color;
+			font-weight: bold;
+			text-decoration: underline;
+			margin-bottom: 10px;
+		}
+
 		.content-subhead {
 			ul {
 				li {
@@ -37,25 +60,32 @@ html, body {
 				}
 			}
 
+			.content-subhead-title {
+				color: $theme-color;
+				text-decoration: underline;
+				padding-left: 10px;
+			}
+
 			.content-subhead-items {
 				ol {
 					li {
-						padding-right: 10px;
+						// padding-right: 10px;
 
 						.item-text {
-							font-size: 14px;
+							font-size: 0.7em;
 							margin-bottom: 10px;
 						}
 					}
 				}
-				margin-bottom: 30px;
+				// margin-bottom: 30px;
 			}
 		}
 	}
 
 	.content-pdf-view {
-		margin-bottom: 100px;
-		font-size: 10px;
+		padding-left: 20px;
+		margin-bottom: 20px;
+		font-size: 0.5em;
 	}
 }
 
@@ -63,12 +93,13 @@ html, body {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 18%;
+	width: 20%;
 	height: 100%;
+	color: #ffffff;
 	border-left: solid 1px;
-	background-color: #facebc;
+	background-color: $theme-color;
 	display: inline-block;
-	padding: 10px;
+	// padding: 10px;
 }
 
 @media only screen and (max-width: 992px) {
