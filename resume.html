@@ -228,5 +228,15 @@
 		</div>
 	</div>
 	<input type="button" value="About" id="about-button">
+
+
+	<script src="./bootstrap/jquery-3.5.1.slim.min.js"></script>
+	<script>
+		$(function() {
+			$("#about-button").click(function() {
+				$("#side-body").toggle(1000);
+			});
+		});
+	</script>
 </body>
 </html>
