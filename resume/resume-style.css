@@ -1,7 +1,11 @@
+@font-face {
+  font-family: liberation;
+  src: url("./LiberationSerif-Regular.ttf");
+}
 html, body {
   background-color: #ffffff;
   overflow: hidden;
-  font-family: "Liberation Serif";
+  font-family: liberation;
 }
 
 #main-body {
@@ -84,7 +88,7 @@ html, body {
   display: none;
 }
 #side-body .header-1 {
-  margin-top: 7.5em;
+  margin-top: 6.6em;
 }
 #side-body .header {
   padding: 20px;
