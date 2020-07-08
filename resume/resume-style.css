@@ -1,6 +1,7 @@
 html, body {
   background-color: #ffffff;
   overflow: hidden;
+  font-family: "Liberation Serif";
 }
 
 #main-body {
