@@ -1,0 +1,35 @@
+@font-face {
+	font-family: Fondomento;
+	src: url('../Fondamento-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
+body {
+	/*background: url('./img/bg.jpg');*/
+	background-color: #202020;
+	color: #ffffff;
+	// font-family: 'chalk';
+	font-family: 'Fondomento', cursive;
+}
+
+.content {
+	font-size: 24px;
+}
+
+.mid-logo {
+	color: #ffffff;
+	display: none;
+}
+
+.navbar {
+	/*background-color: rgba(0, 0, 0, 0.6) !important;*/
+	background-color:  #000000 !important;
+	font-size: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+	.mid-logo {
+		display: inline-block;
+	}
+}

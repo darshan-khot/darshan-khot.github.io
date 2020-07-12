@@ -1,0 +1,21 @@
+@import './basic-style.scss';
+
+.list-group>.list-group-item {
+    background: inherit;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 60%;
+    margin: auto;
+
+    .carousel {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        background-color: #9e9e9e;
+        width: 20px;
+    }
+}
