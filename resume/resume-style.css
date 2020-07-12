@@ -20,9 +20,6 @@ html, body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-#main-body ::-webkit-scrollbar {
-  display: none;
-}
 #main-body #header {
   padding: 20px 20px 0 20px;
   font-size: 30px;
@@ -69,6 +66,10 @@ html, body {
   font-size: 0.5em;
 }
 
+#main-body::-webkit-scrollbar {
+  display: none;
+}
+
 #side-body {
   position: absolute;
   top: 0;
@@ -83,9 +84,6 @@ html, body {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
-#side-body ::-webkit-scrollbar {
-  display: none;
 }
 #side-body .header-1 {
   margin-top: 6.6em;
@@ -114,6 +112,10 @@ html, body {
 #side-body hr {
   color: #ffffff;
   margin: 0 20px;
+}
+
+#side-body::-webkit-scrollbar {
+  display: none;
 }
 
 #about-button {
