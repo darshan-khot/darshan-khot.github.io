@@ -4,18 +4,25 @@
     background: inherit;
 }
 
-.carousel-container {
-    width: 100%;
-    max-width: 60%;
-    margin: auto;
-
-    .carousel {
-        height: 100%;
-        overflow: hidden;
+.carousel {
+    img {
+        height: 250px;
     }
 
     .carousel-control-prev, .carousel-control-next {
         background-color: #9e9e9e;
         width: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+	.carousel {
+        width: 70%;
+        margin: auto;
+        
+        img {
+            height: 450px;
+        }
     }
 }
